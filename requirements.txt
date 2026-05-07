@@ -1,36 +1,7 @@
-# Core Streamlit Application
-streamlit
-
-# Data Processing
-pandas
-numpy
-
-# Environment Management
-python-dotenv
-
-# OpenAI API
-openai
-
-# Web Search Functionality
-duckduckgo-search
-
-# HTTP Requests (for web fetching)
-requests
-
-# URL Processing
-urllib3
-
-# JSON Processing (built-in)
-# json - built into Python
-
-# File Operations (built-in)
-# os - built into Python
-
-# Time utilities (built-in)
-# time - built into Python
-
-# Optional: Additional useful packages for data analysis
-# Uncomment if needed:
-# matplotlib
-# seaborn
-# plotly
+# Pin to versions known to work together. Bump deliberately.
+streamlit>=1.36,<2.0
+pandas>=2.2,<3.0
+python-dotenv>=1.0,<2.0
+openai>=1.40,<2.0
+requests>=2.31,<3.0
+duckduckgo-search>=6.0,<7.0

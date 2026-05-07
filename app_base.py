@@ -589,7 +589,6 @@ Only provide general advice if our inventory doesn't have relevant products.
                             # Enhanced inventory search
                             query = function_args.get("query", "")
                             max_results = function_args.get("max_results", 5)
-                            print(query)
                             products = search_inventory(query, self.inventory_df, max_results)
                             result = {
                                 "products_found": len(products),
